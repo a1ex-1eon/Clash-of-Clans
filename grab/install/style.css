@@ -1,0 +1,58 @@
+html,body {
+	background: url('img/bg.png');
+	padding:15px;
+}
+.content {
+	margin: 0 auto;
+}
+.block {
+	width:613px;
+}
+.bu {
+	background: url('img/bu.png') no-repeat;
+	width:613px;
+	height:24px;
+}
+.bm {
+	background: url('img/bm.png') repeat-y;
+	width:597px;
+	padding-left:15px;
+}
+.bb {
+	background: url('img/bb.png') no-repeat;
+	width:613px;
+	height:24px;
+}
+.step {
+	font-family: Arial Narrow;
+	color:#499ebf;
+	font-size:25px;
+}
+.sinfo {
+	font-family: Verdana Regular;
+	color:#6b6b6b;
+	font-size:15px;
+	padding-left:23px;
+}
+.pnk {
+	font-family: Arial Regular;
+	font-size:11pt;
+	color:#499ebf;
+}
+.inf input {
+	font-family: Arial Regular;
+	font-size:11pt;
+	color:#4d4d4d;
+	border: 0px;
+	background: url('img/input.png');
+	width:346px;
+	height:17px;
+	padding-left:10px;
+	padding-right:3px;
+}
+.copyright {
+	font-family: Verdana Regular;
+	font-size:11pt;
+	color:#4d4d4d;
+	padding-right:10px;
+}

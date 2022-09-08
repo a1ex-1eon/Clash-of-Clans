@@ -1,0 +1,98 @@
+/* CREATE UWEBBER.PW (sTee) */
+
+<!--- uSkin_uChat --->
+
+#iChat-messages {padding-bottom:24px;}
+#iChat_form {
+	width: 187px;
+}
+.chat {
+	width: 185px;
+	font: Arial, sans-serif;
+	font-weight: bold;
+
+	height: 31px;
+	color: #FFF;
+	line-height: 32px;
+	padding-left: 10px;
+}
+.iChat {
+	border: solid 4px rgba(0, 0, 0, 0.5);
+	background: #ebebeb;
+}
+.uMessage{width:177px;background:rgba(0,0,0,0.8);border-radius: 3px 3px 0px 0px;padding:6px;}
+.uChat-editor{border:4px solid #525252; background:#EFEFEF}
+.uChat-editor img{padding:3px;background:url('../img/bbcode/selection.png') no-repeat; background-position:0px 50px}
+.uChat-editor img:hover{padding:2px;background:url('../img/bbcode/selection.png') no-repeat;background-position:0px 0px;border:1px solid #FFB700}
+.uChat_panel{width: 140px;background:rgba(0,0,0,0.8);padding:4px;border-radius:0px 0px 3px 3px;color:#fff;height:24px;}
+.uChat_panel-button{display:block;float:left;width:24px;height:24px;cursor:pointer;margin:0px 1px;}
+.uChat_panel-button.uChat-send-button{background:url('../img/highlight.png') repeat-x #0084b4;font-size:11px;height:22px;border-radius:4px 0px 4px 0px;text-shadow:0px -1px 0px rgba(0,0,0,0.2);width:72px;text-align:center;line-height:21px;}
+.uChat_panel-button.uChat-send-button:hover {background-color:#005f81; box-shadow:0px 0px 3px #005f81;moz-transition:all 1.0s ease;-webkit-transition:all 1.0s ease;-o-transition:all 1.0s ease;transition:all 1.0s ease;}
+.uChat_panel-button.uChat-send-button:active {box-shadow:0px 0px 4px rgba(0,0,0,0.9) inset; -moz-box-shadow:0px 0px 4px rgba(0,0,0,0.9) inset; -webkit-box-shadow:0px 0px 4px rgba(0,0,0,0.9) inset;moz-transition:all 1.0s ease;-webkit-transition:all 1.0s ease;-o-transition:all 1.0s ease;transition:all 1.0s ease;}
+img.action{opacity:0.6;-moz-transition:all 0.3s ease;-webkit-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease;cursor:pointer}
+img.action:hover{opacity:1.0}
+.uChat_panel-button.button-archive {background:url('../img/chat-panel-buttons.png') no-repeat;}
+.uChat_panel-button.button-archive:hover {background-position:0px -24px;}
+.uChat_panel-button.button-rules {background:url('../img/chat-panel-buttons.png') no-repeat -24px 0px;}
+.uChat_panel-button.button-rules:hover {background-position:-24px -24px;}
+.editor_button {
+	float: left;
+	width: 25px;
+	padding-left-left: 7px;
+}
+<!--- uSkin_uChat --->
+
+<!--- uMessage_uChat --->
+
+.uChat-message-block {
+	display:block;
+}
+.uChat-message-block:hover .chat-button {opacity:0.4;}
+.hr {
+	border-bottom: solid 1px #c2c2c2;
+}
+.uChatAvatar {display:block;float:left;position:relative;font-size:0px;margin-right:5px;width:36px;height:36px;}
+.uChatAvatar:after {position:absolute;top:0px;left:0px;bottom:0px;right:0px;box-shadow:0px 1px 3px rgba(0,0,0,0.5) inset;-moz-box-shadow:0px 1px 3px rgba(0,0,0,0.5) inset;-webkit-box-shadow:0px 1px 3px rgba(0,0,0,0.5) inset;	content:"";border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.uChatAvatar img {width:36px;height:36px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;opacity:1.0}
+.uChatAvatar img:hover {opacity:0.5}
+.small {
+	font: 10px Arial, sans-serif;;
+}
+.button-panel {
+	height: 30px;
+	margin-top: 6px;
+	margin-bottom: -11px;
+}
+.button {
+	border-radius: 3px;
+	font-size: 12px;
+	width: 20px;
+	background: #a1a1a1;
+	color: #FFF;
+	text-align: center;
+	padding: 2px 8px;
+	margin-left: 10px;
+}
+
+<!--- uMessage_uChat --->
+
+<!--- uScroll --->
+.uScroll {padding:0px 2px; overflow:auto; height:350px; resize:none;}
+.jspContainer {overflow: hidden; position: relative;}
+.jspPane{position: absolute;}
+.jspVerticalBar {position: absolute;top: 0;right: 3px;width: 1px;height: 100%;background: none;}
+.jspHorizontalBar{position: absolute;bottom: 0;left: 0;width: 100%;height: 16px;background: red;}
+
+.jspVerticalBar *, .jspHorizontalBar * {margin: 0; padding: 0;}
+.jspCap {display: none;}
+.jspHorizontalBar .jspCap{float: left;}
+.jspTrack{background: none;	position: relative;}
+.jspDrag {background: rgba(0,0,0,0.6);border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;position: relative;top: 0;left: -8px !important;cursor: pointer;width:5px;margin:1px;transition:all 0.3s ease;-moz-transition:all 0.3s ease;-webkit-transition:all 0.3s ease;-o-transition:all 0.3s ease;opacity:0.3;}
+
+.hovered .jspDrag {opacity:1 !important;}
+.jspHorizontalBar .jspTrack, .jspHorizontalBar .jspDrag{ float: left; height: 100%;}
+.jspArrow.jspDisabled {cursor: default;	background: #80808d;}
+.jspCorner {background: #eeeef4; float: left; height: 100%;}
+<!--- uScroll --->
+
+/* CREATE UWEBBER.PW (sTee) */

@@ -1,0 +1,14 @@
+
+/* box */
+.box-t { width: 940px; overflow: hidden; background: url(../images/box-t.png) top no-repeat; }
+.box-c { width: 940px; overflow: hidden; background: #fff; }
+.box-b { width: 940px; overflow: hidden; background: url(../images/box-b.png) bottom no-repeat; padding-bottom: 19px; }
+
+/* block */
+.block-bor { overflow: hidden; background: url(../images/block-bor.png) right top no-repeat; padding: 0px 10px 0px 10px; }
+.bor-b { padding: 10px 0px 10px 0px; border-bottom: #e7e7e6 solid 1px; }
+.bor-b h2 { margin-bottom: 10px; }
+
+
+
+
